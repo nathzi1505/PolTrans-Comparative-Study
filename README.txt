@@ -41,7 +41,7 @@ $ jupyter lab
 ├── DS003-Seoul Dataset Creation.ipynb
 ├── DS004-Ulaanbaatar Dataset Creation.ipynb
 ├── DS005-Skopje Dataset Creation.ipynb
-├── Data
+├── datasets
 │   ├── air_quality_uci_dataset.pkl
 │   ├── beijing_pm10_dataset.pkl
 │   ├── beijing_pm25_dataset.pkl
@@ -50,24 +50,16 @@ $ jupyter lab
 │   ├── seoul_dataset.pkl
 │   ├── skopje_dataset.pkl
 │   └── ulaanbaatar_dataset.pkl
-├── M1A-Forecast-PM2.5_ML-All.ipynb
-├── M1B-Forecast-PM2.5_ML-Data.ipynb
-├── M1C-Forecast-PM2.5_ML-Data-Paper.ipynb
-├── M1D-Forecast-PM2.5_ML-TaylorDiagram.ipynb
-├── M2A-Forecast-PM2.5_Stat-All.ipynb
-├── M2B-Forecast-PM2.5_Stat-Data.ipynb
-├── M2C-Forecast-PM2.5_Stat-Data-Paper.ipynb
-├── M2D-Forecast-PM2.5_Stat-TaylorDiagram.ipynb
-├── M3A-Forecast-PM2.5_Transformer-All.ipynb
-├── M3B-Forecast-PM2.5_Transformer-Data.ipynb
-├── M3C-Forecast-PM2.5_Transformer-Data-Paper.ipynb
-├── M4A-Forecast-PM2.5_DL-All.ipynb
-├── M4B-Forecast-PM2.5_DL-Data.ipynb
-├── M4C-Forecast-PM2.5_DL-Data-Paper.ipynb
-├── M4D-Forecast-PM2.5_DL-TaylorDiagram.ipynb
 ├── README.txt
 ├── mlenv-packages.txt
 ├── taylor_diagram.py
 └── tstransformer.py
 
-0
+Note
+---
+1. For reproducing results, follow the notebook sequence from 00A - 04D. 
+2. DS notebook series are to understand how datasets were created.
+3. DM series show data manipulation from original data. 
+4. A series are practice environments for Transformer experimentation.
+5. tstransformer.py is the python script housing the PolTrans architecture.
+6. taylor_diagram.py contains custom code for the Taylor Diagrams supplied in the figures.
